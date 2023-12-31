@@ -36,7 +36,7 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency 'activesupport', '>= 7.0.8', '< 8.0'
   spec.add_dependency 'activemodel', '>= 7.0.8', '< 8.0'
-  spec.add_dependency 'colorize', '>= 0.8.1', '< 1.0'
+  spec.add_dependency 'colorize', '>= 0.8.1', '< 2.0'
   spec.add_dependency 'os', '>= 1.1', '< 2.0'
 
   spec.metadata['rubygems_mfa_required'] = 'true'
