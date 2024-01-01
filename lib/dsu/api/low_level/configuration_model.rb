@@ -4,7 +4,6 @@ require 'active_model'
 require_relative 'json_file'
 require_relative 'migration_version'
 require_relative 'modules/fileable'
-require_relative 'modules/presentable'
 require_relative 'validators/version_validator'
 
 module Dsu
@@ -13,7 +12,6 @@ module Dsu
       # This class represents the dsu configuration_model.
       class ConfigurationModel < JsonFile
         include Modules::Fileable
-        include Modules::Presentable
 
         VERSION = Migration::VERSION
 

@@ -4,7 +4,6 @@ require 'active_model'
 require_relative 'json_file'
 require_relative 'migration_version'
 require_relative 'modules/fileable'
-require_relative 'modules/presentable'
 require_relative 'modules/time_comparable'
 require_relative 'modules/time_formatable'
 require_relative 'validators/entries_validator'
@@ -19,7 +18,6 @@ module Dsu
       # things someone might want to share at their daily standup (DSU).
       class EntryGroupModel < JsonFile
         include Modules::Fileable
-        include Modules::Presentable
         include Modules::TimeComparable
         include Modules::TimeFormatable
 

@@ -5,7 +5,6 @@ require_relative 'json_file'
 require_relative 'migration_version'
 require_relative 'modules/descriptable'
 require_relative 'modules/fileable'
-require_relative 'modules/presentable'
 require_relative 'validators/color_theme_validator'
 require_relative 'validators/description_validator'
 require_relative 'validators/version_validator'
@@ -18,7 +17,6 @@ module Dsu
       class ColorThemeModel < JsonFile
         include Modules::Descriptable
         include Modules::Fileable
-        include Modules::Presentable
 
         VERSION = Migration::VERSION
 

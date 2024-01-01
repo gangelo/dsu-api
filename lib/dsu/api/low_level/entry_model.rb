@@ -2,7 +2,6 @@
 
 require 'active_model'
 require_relative 'modules/descriptable'
-require_relative 'modules/presentable'
 require_relative 'validators/description_validator'
 
 module Dsu
@@ -13,7 +12,6 @@ module Dsu
       class EntryModel
         include ActiveModel::Model
         include Modules::Descriptable
-        include Modules::Presentable
 
         validates_with Validators::DescriptionValidator
 
