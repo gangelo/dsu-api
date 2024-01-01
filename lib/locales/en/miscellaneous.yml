@@ -1,5 +1,5 @@
 en:
-  configuration:
+  configuration_model:
     errors:
       theme_file_missing: Theme file "%{theme_path}" does not exist.
   errors:

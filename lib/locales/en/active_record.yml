@@ -1,8 +1,7 @@
 en:
   activerecord:
-    errors:
-      models:
-        some_model:
-          attributes:
-            some_attribute:
-              some_error: Some error
+    models:
+      color_theme_model : "Color Theme"
+      configuration_model: "Configuration"
+      entry_group_model: "Entry Group"
+      entry_model: "Entry"

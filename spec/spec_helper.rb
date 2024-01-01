@@ -49,4 +49,7 @@ RSpec.configure do |config|
       example.run
     end
   end
+
+  config.include ColorThemeHelpers
+  config.include TimeHelpers
 end

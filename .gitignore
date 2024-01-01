@@ -26,6 +26,6 @@ todo.txt
 /.development_home/*
 /spec/.tmp
 
-migration_version.yml
+migration_version_model.yml
 
 .DS_Store
